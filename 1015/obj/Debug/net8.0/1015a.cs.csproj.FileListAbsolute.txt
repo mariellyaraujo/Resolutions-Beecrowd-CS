@@ -1,0 +1,15 @@
+C:\codigos\beecrowd\1015a.cs\bin\Debug\net8.0\1015a.cs.exe
+C:\codigos\beecrowd\1015a.cs\bin\Debug\net8.0\1015a.cs.deps.json
+C:\codigos\beecrowd\1015a.cs\bin\Debug\net8.0\1015a.cs.runtimeconfig.json
+C:\codigos\beecrowd\1015a.cs\bin\Debug\net8.0\1015a.cs.dll
+C:\codigos\beecrowd\1015a.cs\bin\Debug\net8.0\1015a.cs.pdb
+C:\codigos\beecrowd\1015a.cs\obj\Debug\net8.0\1015a.cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\codigos\beecrowd\1015a.cs\obj\Debug\net8.0\1015a.cs.AssemblyInfoInputs.cache
+C:\codigos\beecrowd\1015a.cs\obj\Debug\net8.0\1015a.cs.AssemblyInfo.cs
+C:\codigos\beecrowd\1015a.cs\obj\Debug\net8.0\1015a.cs.csproj.CoreCompileInputs.cache
+C:\codigos\beecrowd\1015a.cs\obj\Debug\net8.0\1015a.cs.sourcelink.json
+C:\codigos\beecrowd\1015a.cs\obj\Debug\net8.0\1015a.cs.dll
+C:\codigos\beecrowd\1015a.cs\obj\Debug\net8.0\refint\1015a.cs.dll
+C:\codigos\beecrowd\1015a.cs\obj\Debug\net8.0\1015a.cs.pdb
+C:\codigos\beecrowd\1015a.cs\obj\Debug\net8.0\1015a.cs.genruntimeconfig.cache
+C:\codigos\beecrowd\1015a.cs\obj\Debug\net8.0\ref\1015a.cs.dll
