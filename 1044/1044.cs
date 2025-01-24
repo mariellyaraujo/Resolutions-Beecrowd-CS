@@ -1,2 +1,36 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace beecrowd {
+    class URI1040 {
+
+        public static void Main (string[] args) {
+            
+            int VerifMultiplos(int Y){
+
+                if (Y == 0){
+                    Console.WriteLine("São multiplos");
+                } else {
+                    Console.WriteLine("Não são multiplos");
+                }
+                return Y;
+            }
+
+            int resto;
+            string[] ent = Console.ReadLine().Split(' ');
+
+            int A = int.Parse(ent[0]);
+            int B = int.Parse(ent[1]);
+
+            if (B >= A) {
+                resto = B % A;
+                VerifMultiplos(resto);
+
+            } else {
+                resto = A % B;
+                VerifMultiplos(resto);
+            }
+            
+            
+        }
+    }
+}
