@@ -16,12 +16,12 @@ namespace beecrowd {
             if ((A + B) > C && (A + C) > B && (B + C) > A) {
 
                 perimetro = A + B + C;
-                Console.WriteLine($"{perimetro:0.0}");
+                Console.WriteLine($"Perimetro = {perimetro:0.0}");
 
             } else {
 
                 area = ((A + B) * C) / 2;
-                Console.WriteLine($"{area:0.0}");
+                Console.WriteLine($"Area = {area:0.0}");
             }
 
         }
