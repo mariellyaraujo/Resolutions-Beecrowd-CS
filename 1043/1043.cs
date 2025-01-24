@@ -8,16 +8,20 @@ namespace beecrowd {
          
             string[] ent = Console.ReadLine().Split(' ');
 
-            double triangulo, trapezio;
+            double perimetro, area;
             double A = double.Parse(ent[0], CultureInfo.InvariantCulture);
             double B = double.Parse(ent[1], CultureInfo.InvariantCulture);
             double C = double.Parse(ent[2], CultureInfo.InvariantCulture);
 
-            if ((A + B) >= C) {
-                Console.WriteLine($"triangulo");
+            if ((A + B) > C && (A + C) > B && (B + C) > A) {
+
+                perimetro = A + B + C;
+                Console.WriteLine($"{perimetro:0.0}");
 
             } else {
-                Console.WriteLine($"trapezio");
+
+                area = ((A + B) * C) / 2;
+                Console.WriteLine($"{area:0.0}");
             }
 
         }
