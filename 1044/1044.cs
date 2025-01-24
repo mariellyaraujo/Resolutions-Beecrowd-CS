@@ -3,18 +3,15 @@
 namespace beecrowd {
     class URI1040 {
 
-        public static void Main (string[] args) {
-            
-            int VerifMultiplos(int Y){
-
-                if (Y == 0){
-                    Console.WriteLine("São Multiplos");
-                } else {
-                    Console.WriteLine("Não são Multiplos");
-                }
-                return Y;
+        public static void VerifMultiplos(int Y) {
+            if (Y == 0){
+                Console.WriteLine("São Multiplos");
+            } else {
+                Console.WriteLine("Não são Multiplos");
             }
+        }
 
+        public static void Main(string[] args) {
             int resto;
             string[] ent = Console.ReadLine().Split(' ');
 
@@ -24,13 +21,10 @@ namespace beecrowd {
             if (B >= A) {
                 resto = B % A;
                 VerifMultiplos(resto);
-
             } else {
                 resto = A % B;
                 VerifMultiplos(resto);
             }
-            
-            
         }
     }
 }
