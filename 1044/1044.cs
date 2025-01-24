@@ -5,9 +5,9 @@ namespace beecrowd {
 
         public static void VerifMultiplos(int Y) {
             if (Y == 0){
-                Console.WriteLine("São Multiplos");
+                Console.WriteLine("Sao Multiplos");
             } else {
-                Console.WriteLine("Não são Multiplos");
+                Console.WriteLine("Nao sao Multiplos");
             }
         }
 
