@@ -15,10 +15,10 @@ namespace beecrowd {
                 Console.WriteLine("Origem");
 
             } else if (X == 0){
-                Console.WriteLine("Eixo X");
+                Console.WriteLine("Eixo Y");
 
             } else if (Y == 0){
-                Console.WriteLine("Eixo Y");
+                Console.WriteLine("Eixo X");
 
             } else if (X > 0 && Y > 0){
                 Console.WriteLine("Q1");
