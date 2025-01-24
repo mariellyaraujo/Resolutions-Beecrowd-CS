@@ -46,7 +46,7 @@ namespace beecrowd {
                 } else if (B == "anelideo") {
 
                     if (C == "hematofago") {
-                        Console.WriteLine("pulga");
+                        Console.WriteLine("sanguessuga");
 
                     } else if (C == "onivoro") {
                         Console.WriteLine("minhoca");
