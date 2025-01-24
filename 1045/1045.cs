@@ -5,25 +5,25 @@ namespace beecrowd {
 
         public static void VerifTriangulo(double a, double b, double c) {
             if (a == b && a == c && b == c) {
-                Console.WriteLine("equilatero");
+                Console.WriteLine("TRIANGULO EQUILATERO");
 
             } else if (a == b || a == c || b == c) {
-                Console.WriteLine("isosceles");
+                Console.WriteLine("TRIANGULO ISOSCELES");
 
             }
         }
 
         public static void VerifAngulo(double a, double b, double c) {
             if ((a * a) == ((b * b) + (c * c))) {
-                Console.WriteLine("retangulo");
+                Console.WriteLine("TRIANGULO RETANGULO");
                 VerifTriangulo(a, b, c);
 
             } else if ((a * a) > ((b * b) + (c * c))) {
-                Console.WriteLine("obtusangulo");
+                Console.WriteLine("TRIANGULO OBTUSANGULO");
                 VerifTriangulo(a, b, c);
 
             } else if ((a * a) > ((b * b) + (c * c))) {
-                Console.WriteLine("acutangulo");
+                Console.WriteLine("TRIANGULO ACUTANGULO");
                 VerifTriangulo(a, b, c);
 
             }
@@ -45,7 +45,7 @@ namespace beecrowd {
             C = lista[2];
 
             if ((B+C) <= A){
-                Console.WriteLine("nao eh tiangulo");
+                Console.WriteLine("NAO FORMA TRIANGULO");
 
             } else {
                 VerifAngulo(A, B, C);
