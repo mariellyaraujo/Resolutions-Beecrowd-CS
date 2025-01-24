@@ -24,7 +24,7 @@ namespace beecrowd {
                 Console.WriteLine("TRIANGULO OBTUSANGULO");
                 VerifTriangulo(a, b, c);
 
-            } else if ((a * a) > ((b * b) + (c * c))) {
+            } else if ((a * a) < ((b * b) + (c * c))) {
                 Console.WriteLine("TRIANGULO ACUTANGULO");
                 VerifTriangulo(a, b, c);
 
