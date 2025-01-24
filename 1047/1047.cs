@@ -15,17 +15,16 @@ namespace beecrowd {
             int duracaoHora;
             int duracaoMinuto;
 
-            // Calculando a diferença de minutos
             int minutosInicio = horaInicio * 60 + minutoInicio;
             int minutosFim = horaFim * 60 + minutoFim;
 
             if (minutosFim <= minutosInicio) {
-                minutosFim += 24 * 60; // Caso o horário de fim seja no dia seguinte
+                minutosFim += 24 * 60; 
             }
 
             int duracaoTotalMinutos = minutosFim - minutosInicio;
 
-            // Dividindo a duração total em horas e minutos
+          
             duracaoHora = duracaoTotalMinutos / 60;
             duracaoMinuto = duracaoTotalMinutos % 60;
 
