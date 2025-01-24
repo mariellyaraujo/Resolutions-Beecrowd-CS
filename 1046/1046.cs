@@ -11,9 +11,9 @@ namespace beecrowd {
             int A = int.Parse(ent[0]);
             int B = int.Parse(ent[1]);
 
-            if(A == 0 && B == 0){
+            if(A == B){
                 A = 24;
-                Console.WriteLine($"O JOGO DUROU {A}" HORA(S));
+                Console.WriteLine($"O JOGO DUROU {A} HORA(S)");
             } else if (A > B){
 
                 B = B + 24;
