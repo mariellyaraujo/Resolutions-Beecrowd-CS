@@ -1,0 +1,15 @@
+C:\codigos\beecrowd\1042\obj\Debug\net8.0\1042.GeneratedMSBuildEditorConfig.editorconfig
+C:\codigos\beecrowd\1042\obj\Debug\net8.0\1042.AssemblyInfoInputs.cache
+C:\codigos\beecrowd\1042\obj\Debug\net8.0\1042.AssemblyInfo.cs
+C:\codigos\beecrowd\1042\obj\Debug\net8.0\1042.csproj.CoreCompileInputs.cache
+C:\codigos\beecrowd\1042\obj\Debug\net8.0\1042.sourcelink.json
+C:\codigos\beecrowd\1042\bin\Debug\net8.0\1042.exe
+C:\codigos\beecrowd\1042\bin\Debug\net8.0\1042.deps.json
+C:\codigos\beecrowd\1042\bin\Debug\net8.0\1042.runtimeconfig.json
+C:\codigos\beecrowd\1042\bin\Debug\net8.0\1042.dll
+C:\codigos\beecrowd\1042\bin\Debug\net8.0\1042.pdb
+C:\codigos\beecrowd\1042\obj\Debug\net8.0\1042.dll
+C:\codigos\beecrowd\1042\obj\Debug\net8.0\refint\1042.dll
+C:\codigos\beecrowd\1042\obj\Debug\net8.0\1042.pdb
+C:\codigos\beecrowd\1042\obj\Debug\net8.0\1042.genruntimeconfig.cache
+C:\codigos\beecrowd\1042\obj\Debug\net8.0\ref\1042.dll
