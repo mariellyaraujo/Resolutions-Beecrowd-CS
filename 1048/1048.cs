@@ -10,7 +10,7 @@ namespace beecrowd {
             s = s + p;
 
             Console.WriteLine($"Novo salario: {s:0.00}");
-            Console.WriteLine($"Reajuste ganho: {p}");
+            Console.WriteLine($"Reajuste ganho: {p:0.00}");
         }
         public static void Main (string[] args) {
 
