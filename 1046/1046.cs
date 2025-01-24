@@ -13,8 +13,8 @@ namespace beecrowd {
 
             if (A > B){
 
-                A = A + 24;
-                Console.WriteLine(A-B);
+                B = B + 24;
+                Console.WriteLine((A-B) * 1);
 
             } else {
                 Console.WriteLine(A-B);
