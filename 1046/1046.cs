@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 namespace beecrowd {
-    class URI1042 {
+    class URI1046 {
 
         public static void Main (string[] args) {
 

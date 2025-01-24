@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 
 namespace beecrowd {
-    class URI1040 {
+    class URI1045 {
 
         public static void VerifTriangulo(double a, double b, double c) {
             if (a == b && a == c && b == c) {

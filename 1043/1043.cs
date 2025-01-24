@@ -2,7 +2,7 @@
 using System.Globalization;
 
 namespace beecrowd {
-    class URI1040 {
+    class URI1043 {
 
         public static void Main (string[] args) {
          

@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace beecrowd {
-    class URI1040 {
+    class URI1044 {
 
         public static void VerifMultiplos(int Y) {
             if (Y == 0){
