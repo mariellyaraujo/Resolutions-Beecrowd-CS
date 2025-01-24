@@ -3,6 +3,32 @@
 namespace beecrowd {
     class URI1040 {
 
+        public static void VerifTriangulo(double a, double b, double c) {
+            if (a == b && a == c && b == c) {
+                Console.WriteLine("equilatero");
+
+            } else if (a == b || a == c || b == c) {
+                Console.WriteLine("isosceles");
+
+            }
+        }
+
+        public static void VerifAngulo(double a, double b, double c) {
+            if ((a * a) == ((b * b) + (c * c))) {
+                Console.WriteLine("retangulo");
+                VerifTriangulo(a, b, c);
+
+            } else if ((a * a) > ((b * b) + (c * c))) {
+                Console.WriteLine("obtusangulo");
+                VerifTriangulo(a, b, c);
+
+            } else if ((a * a) > ((b * b) + (c * c))) {
+                Console.WriteLine("acutangulo");
+                VerifTriangulo(a, b, c);
+
+            }
+        }
+
         public static void Main(string[] args) {
 
             List<double> lista = new List<double>();
@@ -22,7 +48,7 @@ namespace beecrowd {
                 Console.WriteLine("nao eh tiangulo");
 
             } else {
-                Console.WriteLine(" eh tiangulo");
+                VerifAngulo(A, B, C);
             }
 
         }
