@@ -23,8 +23,16 @@ namespace beecrowd {
                 Console.WriteLine("Juiz de Fora");
                 
             } else if (A == 19){
-                Console.WriteLine("Cp");
+                Console.WriteLine("Campinas");
                 
+            }else if (A == 27){
+                Console.WriteLine("Vitoria");
+                
+            }else if (A == 31){
+                Console.WriteLine("Belo Horizonte");
+                
+            } else {
+                Console.WriteLine("DDD nao cadastrado");
             }
         }
     }
