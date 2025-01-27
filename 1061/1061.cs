@@ -22,30 +22,26 @@ namespace beecrowd {
             minutoF = int.Parse(ent3[2]);
             segundoF = int.Parse(ent3[4]);
 
-            /*string[] ent = Console.ReadLine().Split(' ');
+            int totalI = (diaI * 86400) + (horaI * 3600) + (minutoI * 60) + segundoI;
+            int totalF = (diaF * 86400) + (horaF * 3600) + (minutoF * 60) + segundoF;
 
-            int horaInicio = int.Parse(ent[0]);
-            int minutoInicio = int.Parse(ent[1]);
-            int horaFim = int.Parse(ent[2]);
-            int minutoFim = int.Parse(ent[3]);
+            int totalDif = totalF - totalI;
 
-            int duracaoHora;
-            int duracaoMinuto;
+            int dias = totalDif / 86400;
+            totalDif %= 86400;
 
-            int minutosInicio = horaInicio * 60 + minutoInicio;
-            int minutosFim = horaFim * 60 + minutoFim;
+            int horas = totalDif / 3600;
+            totalDif %= 3600;
 
-            if (minutosFim <= minutosInicio) {
-                minutosFim += 24 * 60; 
-            }
+            int minutos = totalDif / 60;
+            totalDif %= 60;
 
-            int duracaoTotalMinutos = minutosFim - minutosInicio;
+            int segundos = totalDif;
 
-          
-            duracaoHora = duracaoTotalMinutos / 60;
-            duracaoMinuto = duracaoTotalMinutos % 60;
-
-            Console.WriteLine($"O JOGO DUROU {duracaoHora} HORA(S) E {duracaoMinuto} MINUTO(S)");*/
+            Console.WriteLine($"{dias} dia(s)");
+            Console.WriteLine($"{horas} hora(s)");
+            Console.WriteLine($"{minutos} minuto(s)");
+            Console.WriteLine($"{segundos} segundo(s)");
         }
     }
 }
