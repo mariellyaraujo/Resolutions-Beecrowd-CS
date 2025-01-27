@@ -5,10 +5,23 @@ namespace beecrowd {
 
         public static void Main(string[] args) {
 
+            int diaI, horaI, minutoI, segundoI, diaF, horaF, minutoF, segundoF;
             string[] ent = Console.ReadLine().Split(' ');
+            string[] ent1 = Console.ReadLine().Split(' ');
+            
+            diaI = int.Parse(ent[1]);
+            horaI = int.Parse(ent1[0]);
+            minutoI = int.Parse(ent1[2]);
+            segundoI = int.Parse(ent1[4]);
 
-            Console.WriteLine(ent[0]);
-            Console.WriteLine(ent[1]);
+            string[] ent2 = Console.ReadLine().Split(' ');
+            string[] ent3 = Console.ReadLine().Split(' ');
+            
+            diaF = int.Parse(ent2[1]);
+            horaF = int.Parse(ent3[0]);
+            minutoF = int.Parse(ent3[2]);
+            segundoF = int.Parse(ent3[4]);
+
             /*string[] ent = Console.ReadLine().Split(' ');
 
             int horaInicio = int.Parse(ent[0]);
