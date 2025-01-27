@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace beecrowd {
-    class URI1049 {
+    class URI1050 {
 
         public static void Main(string[] args) {
 
