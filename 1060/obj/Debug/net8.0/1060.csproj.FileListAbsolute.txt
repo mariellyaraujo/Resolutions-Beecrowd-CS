@@ -1,0 +1,15 @@
+C:\codigos\beecrowd\1060\bin\Debug\net8.0\1060.exe
+C:\codigos\beecrowd\1060\bin\Debug\net8.0\1060.deps.json
+C:\codigos\beecrowd\1060\bin\Debug\net8.0\1060.runtimeconfig.json
+C:\codigos\beecrowd\1060\bin\Debug\net8.0\1060.dll
+C:\codigos\beecrowd\1060\bin\Debug\net8.0\1060.pdb
+C:\codigos\beecrowd\1060\obj\Debug\net8.0\1060.GeneratedMSBuildEditorConfig.editorconfig
+C:\codigos\beecrowd\1060\obj\Debug\net8.0\1060.AssemblyInfoInputs.cache
+C:\codigos\beecrowd\1060\obj\Debug\net8.0\1060.AssemblyInfo.cs
+C:\codigos\beecrowd\1060\obj\Debug\net8.0\1060.csproj.CoreCompileInputs.cache
+C:\codigos\beecrowd\1060\obj\Debug\net8.0\1060.sourcelink.json
+C:\codigos\beecrowd\1060\obj\Debug\net8.0\1060.dll
+C:\codigos\beecrowd\1060\obj\Debug\net8.0\refint\1060.dll
+C:\codigos\beecrowd\1060\obj\Debug\net8.0\1060.pdb
+C:\codigos\beecrowd\1060\obj\Debug\net8.0\1060.genruntimeconfig.cache
+C:\codigos\beecrowd\1060\obj\Debug\net8.0\ref\1060.dll
