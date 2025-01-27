@@ -6,7 +6,8 @@ namespace beecrowd {
 
         public static void Main(string[] args) {
 
-        double num, soma;
+        double num;
+        double calculo = 0;
         int positivos = 0;
 
         for (int i = 0; i < 6; i++) {
@@ -14,14 +15,16 @@ namespace beecrowd {
             num = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             
             if (num >= 0) {
-                soma += num;
+                calculo += num;
                 positivos++;
             }
 
         }
 
+        calculo = calculo / positivos;
+
         Console.WriteLine($"{positivos} valores positivos");
-        Console.WriteLine($"{soma} valores positivos");
+        Console.WriteLine($"{calculo:0.0}");
         }
     }
 }
