@@ -19,7 +19,7 @@ namespace beecrowd {
             if (num >= 0) {
                 positivo = positivo + 1;
 
-                if (y % 2 == 0){
+                if (n% 2 == 0){
                 par++;
                  } else {
                 impar++;
@@ -33,7 +33,7 @@ namespace beecrowd {
                  } else {
                 impar++;
                  }
-                 
+
             }
 
 
