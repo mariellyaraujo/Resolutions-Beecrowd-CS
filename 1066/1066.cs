@@ -16,33 +16,39 @@ namespace beecrowd {
         
             num = int.Parse(Console.ReadLine());
             
-            if (num >= 0) {
-                positivo = positivo + 1;
+            if (num > 0) {
+                positivo++;
 
-                if (n% 2 == 0){
+                if (num % 2 == 0){
+                par++;
+                 } else {
+                impar++;
+                 }
+
+            } else if (num < 0) {
+                negativo++;
+
+                if (num % 2 == 0){
                 par++;
                  } else {
                 impar++;
                  }
 
             } else {
-                negativo = negativo + 1;
-
-                if (y % 2 == 0){
+                if (num % 2 == 0){
                 par++;
                  } else {
                 impar++;
                  }
-
             }
 
 
         }
 
-            Console.WriteLine($"{par}");
-            Console.WriteLine($"{impar}");
-            Console.WriteLine($"{positivo}");
-            Console.WriteLine($"{negativo}");
+            Console.WriteLine($"{par} valor(es) par(es)");
+            Console.WriteLine($"{impar} valor(es) impar(es)");
+            Console.WriteLine($"{positivo} valor(es) positivo(s)");
+            Console.WriteLine($"{negativo} valor(es) negativo(s)");
         }
     }
 }
