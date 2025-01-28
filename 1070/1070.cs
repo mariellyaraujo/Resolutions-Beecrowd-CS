@@ -8,11 +8,17 @@ namespace beecrowd {
 
             int y = int.Parse(Console.ReadLine());
             
+            if (y % 2 == 0) {
+                y++;
+            } else {
+                y = y;
+            }
 
-            for (int i = 1; i <= y; i++) {
+
+            for (int i = 0; i < 6; i++) {
         
-            Console.WriteLine(i);
-            i++;
+            Console.WriteLine(y);
+            y += 2;
 
         }
 
