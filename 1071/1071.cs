@@ -11,11 +11,14 @@ namespace beecrowd {
             int x = int.Parse(Console.ReadLine());
             
 
-            for (int i = x; i <= y; i++) {
+            for (int i = x; i < y; i++) {
         
-            if (i % 2 == 1) {
+            if (i % 2 != 0 && i != x) {
                 soma += i;
+                Console.WriteLine(i);
             }
+
+
 
         }
             Console.WriteLine(soma);
