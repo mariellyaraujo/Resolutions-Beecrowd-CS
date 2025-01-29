@@ -15,10 +15,7 @@ namespace beecrowd {
         
             if (i % 2 != 0 && i != x) {
                 soma += i;
-                Console.WriteLine(i);
             }
-
-
 
         }
             Console.WriteLine(soma);
