@@ -19,7 +19,7 @@ namespace beecrowd {
 
                 calculo = (num1 + num2 + num3) / 3;
 
-                Console.WriteLine(calculo);
+                Console.WriteLine($"{calculo:0.0}");
 
         }
 
