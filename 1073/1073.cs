@@ -10,7 +10,7 @@ namespace beecrowd {
 
             
 
-            for (int i = 0; i <= y; i++) {
+            for (int i = 1; i <= y; i++) {
         
             if (i % 2 == 0) {
                 Console.WriteLine($"{i}^{i} = {i * i}");
