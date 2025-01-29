@@ -17,7 +17,7 @@ namespace beecrowd {
                 num2 = double.Parse(ent[1], CultureInfo.InvariantCulture);
                 num3 = double.Parse(ent[2], CultureInfo.InvariantCulture);
 
-                calculo = (num1 + num2 + num3) / 3;
+                calculo = ((num1 * 2) + (num2 * 3) + (num3 * 5)) / 10;
 
                 Console.WriteLine($"{calculo:0.0}");
 
