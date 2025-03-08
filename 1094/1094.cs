@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace beecrowd {
     class URI1094 {
@@ -31,17 +32,17 @@ namespace beecrowd {
 
             int total = coelhosN + saposN + ratosN;
 
-            double coelhosP = ((double) coelhosN / total) * 100;
-            double saposP = ((double) saposN / total) * 100;
-            double ratosP = ((double) ratosN / total) * 100;
+            double coelhosP = total > 0 ? ((double) coelhosN / total) * 100 : 0;
+            double saposP = total > 0 ? ((double) saposN / total) * 100 : 0;
+            double ratosP = total > 0 ? ((double) ratosN / total) * 100 : 0;
 
             Console.WriteLine($"Total: {total} cobaias");
-            Console.WriteLine($"Total de Coelhos: {coelhosN}");
+            Console.WriteLine($"Total de coelhos: {coelhosN}");
             Console.WriteLine($"Total de ratos: {ratosN}");
             Console.WriteLine($"Total de sapos: {saposN}");
-            Console.WriteLine($"Percentual de coelhos: {coelhosP:0.00} %");
-            Console.WriteLine($"Percentual de ratos: {ratosP:0.00} %");
-            Console.WriteLine($"Percentual de sapos: {saposP:0.00} %");
+            Console.WriteLine($"Percentual de coelhos: {coelhosP.ToString("F2", CultureInfo.InvariantCulture)} %");
+            Console.WriteLine($"Percentual de ratos: {ratosP.ToString("F2", CultureInfo.InvariantCulture)} %");
+            Console.WriteLine($"Percentual de sapos: {saposP.ToString("F2", CultureInfo.InvariantCulture)} %");
            
     }
 }
