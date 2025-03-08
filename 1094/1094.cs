@@ -4,7 +4,7 @@ namespace beecrowd {
     class URI1094 {
 
         public static void Main (string[] args) {
-            int coelhosN, saposN, ratosN;
+            int coelhosN, saposN, ratosN, coelhosP, saposP, ratosP;
             int num = int.Parse(Console.ReadLine());
 
             for(int i = 0; i < num; i++){
@@ -27,8 +27,10 @@ namespace beecrowd {
                         ratosN =+ quant;
                         break;
                 }
-
             }
+
+            int total = coelhosN + saposN + ratosN;
+
         }
     }
 }
