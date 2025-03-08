@@ -31,6 +31,9 @@ namespace beecrowd {
 
             int total = coelhosN + saposN + ratosN;
 
+            coelhosP = (total / coelhosN) * 100;
+            saposPP = (total / saposN) * 100;
+            ratosP = (total / ratosN) * 100;
         }
     }
 }
