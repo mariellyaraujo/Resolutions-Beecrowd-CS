@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Threading.Tasks.Dataflow;
 
 namespace beecrownd
 {
@@ -27,10 +26,13 @@ namespace beecrownd
                     y = a;
                 }
 
-                for(int j = x; j < y; j++)
+                for(int j = x+1; j < y; j++)
                 {
-                    Console.Write($"{j }");
-                    result = result + j;
+                    if (j % 2 != 0)
+                    {
+                        result = result + j;
+
+                    }
                 }
                 Console.WriteLine($"{result}");
             }
