@@ -11,8 +11,30 @@ namespace beecrownd
             {
                 string[] entrada = Console.ReadLine().Split(' ');
 
-                int x = int.Parse(entrada[0]);
-                char y = int.Parse(entrada[1]);
+                int a = int.Parse(entrada[0]);
+                int b = int.Parse(entrada[1]);
+
+                int x = 0, y = 0, result = 0;
+
+                if (a < b)
+                {
+                    x = a;
+                    y = b;
+                } else
+                {
+                    x = b;
+                    y = a;
+                }
+
+                for(int j = x+1; j < y; j++)
+                {
+                    if (j % 2 != 0)
+                    {
+                        result = result + j;
+
+                    }
+                }
+                Console.WriteLine($"{result}");
             }
         }
     }
