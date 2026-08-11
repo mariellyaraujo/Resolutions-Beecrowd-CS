@@ -4,12 +4,12 @@ using System.Globalization;
 namespace beecrownd {
     class URI1117 {
 
-        static void Main(string[] args) { 
-
-           int i = 0;
-           double media = 0.0;
-
-           while(i < 2)
+        public static void calcNotas()
+        {
+            int i = 0;
+            double media = 0.0;
+            
+            while(i < 2)
             {
                 string input = Console.ReadLine(); 
                 double entrada = double.Parse(input, CultureInfo.InvariantCulture);
@@ -25,6 +25,12 @@ namespace beecrownd {
             }
             media = media / 2;
             Console.WriteLine($"media = {(media.ToString("F2", CultureInfo.InvariantCulture))}");
+        }
+        static void Main(string[] args) { 
+
+           
+
+           calcNotas();
 
         }
 
