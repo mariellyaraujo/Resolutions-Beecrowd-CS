@@ -8,7 +8,7 @@ namespace beecrownd {
         {
             int i = 0;
             double media = 0.0;
-            
+
             while(i < 2)
             {
                 string input = Console.ReadLine(); 
@@ -28,9 +28,18 @@ namespace beecrownd {
         }
         static void Main(string[] args) { 
 
-           
-
            calcNotas();
+
+            while (true)
+            {
+                Console.WriteLine("novo calculo (1-sim 2-nao)");
+
+                int resposta = int.Parse(Console.ReadLine());
+
+                if (resposta == 1) calcNotas();
+                else if (resposta == 2) break;
+                
+            }
 
         }
 
