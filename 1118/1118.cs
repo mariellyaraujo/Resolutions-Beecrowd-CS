@@ -2,7 +2,7 @@
 using System.Globalization;
 
 namespace beecrownd {
-    class URI1117 {
+    class URI1118 {
 
         public static void calcNotas()
         {
