@@ -1,0 +1,15 @@
+C:\codigos\beecrowd\1142\obj\Debug\net8.0\1142.GeneratedMSBuildEditorConfig.editorconfig
+C:\codigos\beecrowd\1142\obj\Debug\net8.0\1142.AssemblyInfoInputs.cache
+C:\codigos\beecrowd\1142\obj\Debug\net8.0\1142.AssemblyInfo.cs
+C:\codigos\beecrowd\1142\obj\Debug\net8.0\1142.csproj.CoreCompileInputs.cache
+C:\codigos\beecrowd\1142\obj\Debug\net8.0\1142.sourcelink.json
+C:\codigos\beecrowd\1142\bin\Debug\net8.0\1142.exe
+C:\codigos\beecrowd\1142\bin\Debug\net8.0\1142.deps.json
+C:\codigos\beecrowd\1142\bin\Debug\net8.0\1142.runtimeconfig.json
+C:\codigos\beecrowd\1142\bin\Debug\net8.0\1142.dll
+C:\codigos\beecrowd\1142\bin\Debug\net8.0\1142.pdb
+C:\codigos\beecrowd\1142\obj\Debug\net8.0\1142.dll
+C:\codigos\beecrowd\1142\obj\Debug\net8.0\refint\1142.dll
+C:\codigos\beecrowd\1142\obj\Debug\net8.0\1142.pdb
+C:\codigos\beecrowd\1142\obj\Debug\net8.0\1142.genruntimeconfig.cache
+C:\codigos\beecrowd\1142\obj\Debug\net8.0\ref\1142.dll
