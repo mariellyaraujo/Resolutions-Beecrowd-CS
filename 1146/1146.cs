@@ -1,29 +1,34 @@
 ﻿using System;
+using System.Text;
 
-namespace beecrownd
+namespace beecrowd
 {
     class URI1146
     {
         public static void Main(string[] args)
         {
-            while (true)
+            string input;
+            
+            while ((input = Console.ReadLine()) != null)
             {
-                int ent = int.Parse(Console.ReadLine());
-
+                int ent = int.Parse(input);
                 if (ent == 0) break;
+
+                StringBuilder sb = new StringBuilder();
 
                 for (int i = 1; i <= ent; i++)
                 {
                     if (i == 1)
                     {
-                        Console.Write(i);
-                    } else
-                    {
-                        Console.Write($" {i}");
+                        sb.Append(i);
                     }
-
-                    if (i == ent) Console.WriteLine("");
+                    else
+                    {
+                        sb.Append(' ').Append(i);
+                    }
                 }
+
+                Console.WriteLine(sb.ToString());
             }
         }
     }
